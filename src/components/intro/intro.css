@@ -18,7 +18,7 @@
     max-height: 500px;
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
+    transform: rotate(5deg);
     transition: var(--transition);
 }
 

@@ -13,19 +13,27 @@ const Experience = () => {
           <div className="experience__content">
           <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>HTML</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>CSS</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>JavaScript</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>React</h4>
+              <h4>Tailwind CSS</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>React Js </h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Angular</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Next JS</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>HTML</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
@@ -33,15 +41,7 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Next js</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>SCSS</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Tailwind</h4>
+              <h4>CSS</h4>
             </article>
           </div>
         </div>
@@ -50,56 +50,64 @@ const Experience = () => {
           <div className="experience__content">
           <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Ruby</h4>
+              <h4>Node Js</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Ruby on Rails</h4>
+              <h4>Git / GitHub</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>PostgreSQL</h4>
+              <h4>Express Js</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Swagger</h4>
+              <h4>Websockets</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>RSpec</h4>
+              <h4>Mongo DB</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Git/GitHub</h4>
+              <h4>APIs</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Authentication</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>API Integration </h4>
             </article>
           </div>
         </div>
         <div className="experience__backend">
-          <h3>Back-end Development</h3>
+          <h3>Others</h3>
           <div className="experience__content">
           <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Ruby</h4>
+              <h4>Docker</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Ruby on Rails</h4>
+              <h4>JIRA</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>PostgreSQL</h4>
+              <h4>Deployment(AWS)</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Swagger</h4>
+              <h4>Debugging</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>RSpec</h4>
+              <h4>CI / CD </h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Git/GitHub</h4>
+              <h4>VS-Code</h4>
             </article>
           </div>
         </div>
