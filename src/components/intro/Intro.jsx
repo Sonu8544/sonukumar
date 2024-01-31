@@ -1,7 +1,8 @@
 import React from 'react';
 import { FaAward } from 'react-icons/fa';
 import { VscFolderLibrary } from 'react-icons/vsc';
-import ME from '../../assets/me.jpg';
+// import ME from '../../assets/me.jpg';
+import ME from '../../assets/sonu.jpg';
 import './intro.css';
 
 const Intro = () => {
@@ -15,6 +16,17 @@ const Intro = () => {
             <img src={ME} alt="me" />
           </div>
         </div>
+
+
+
+
+
+
+
+
+
+
+
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
