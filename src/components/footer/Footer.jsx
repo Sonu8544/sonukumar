@@ -26,7 +26,7 @@ const Footer = () => {
         <a href="https://github.com/Meri-MG" target="_blank" rel="noreferrer" ><FaGithub /></a>
       </div>
       <div className="footer__copyright">
-        <small>&copy; sonukumar {getYear()}. All rights reserved.</small>
+        <small>&copy; sksonu8544 {getYear()}. All rights reserved.</small>
       </div>
     </footer>
   )

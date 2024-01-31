@@ -1,6 +1,6 @@
 import React from 'react';
 import { BsLinkedin } from 'react-icons/bs';
-import { Pagination } from 'swiper';
+import { Pagination, Autoplay } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -60,23 +60,26 @@ const Testimonials = () => {
     <section id="testmonials">
       <h5>Feedback from my peers</h5>
       <h2>Testimonials</h2>
-      <Swiper 
+      <Swiper
         className="container testimonials__container"
-        modules={[Pagination]}
+        modules={[Pagination, Autoplay]}
         spaceBetween={40}
         slidesPerView={1}
+        breakpoints={{ 600: { slidesPerView: 2,}}}
         pagination={{ clickable: true }}
-        >
+        autoplay={{ delay: 4000 }}
+        loop={true}
+      >
         {testimonials.map((test) => (
           <SwiperSlide className="testimonial" key={test.id}>
-          <div className="client__avatar">
-            <a href={test.link}>
-              <BsLinkedin />
-            </a>
-          </div>
-          <h5 className='client__name'>{test.name}</h5>
-          <small className="client__review">{test.test}</small>
-        </SwiperSlide>
+            <div className="client__avatar">
+              <a href={test.link}>
+                <BsLinkedin />
+              </a>
+            </div>
+            <h5 className='client__name'>{test.name}</h5>
+            <small className="client__review">{test.test}</small>
+          </SwiperSlide>
         ))}
       </Swiper>
     </section>

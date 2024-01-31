@@ -29,7 +29,9 @@ footer a {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-bottom: 4rem;
+    padding-bottom: 3rem;
+    max-width: 90%;
+    margin: 0px auto 1rem auto;
 }
 
 .footer__socials a {
@@ -51,14 +53,14 @@ footer a {
     margin-bottom: 4rem;
     color: var(--color-bg);
 }
-  
-@media screen and (max-width: 600px){
+
+@media screen and (max-width: 600px) {
     .permalinks {
         flex-direction: column;
         gap: 1.5rem;
     }
 
-    .footer__socials {
-        margin-bottom: 2.6rem;
+    .footer__socials{
+        max-width: 90%;
     }
 }
