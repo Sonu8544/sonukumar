@@ -12,6 +12,7 @@ nav {
   gap: 0.8rem;
   border-radius: 3rem;
   backdrop-filter: blur(15px);
+  border: 1px solid white;
 }
 
 nav a {
@@ -28,6 +29,7 @@ nav a:hover {
 }
 
 nav a.active {
+  border: 1px solid white;
   background: var(--color-bg);
   color: var(--color-white);
 }
