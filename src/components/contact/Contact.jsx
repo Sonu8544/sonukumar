@@ -30,7 +30,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+      <h2> &lt; Contact Me /&gt;</h2>
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
@@ -42,12 +42,14 @@ const Contact = () => {
         </div>
         <form ref={formRef} onSubmit={handleSubmit}>
           <input
+            className='inputType'
             type="text"
             placeholder="Your Full Name"
             name="user_name"
             required
           />
           <input
+            className='inputType'
             type="text"
             placeholder="Your Email"
             name="user_email"
