@@ -13,9 +13,11 @@
 }
 
 .experience__container > div:hover {
+    scale: 1.1;
     background: transparent;
     border-color: var(--color-primary-variant);
-    cursor: default;
+    cursor: pointer;
+    border: 1px solid white;
 }
 
 .experience__container > div h3 {
