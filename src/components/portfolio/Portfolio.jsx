@@ -47,7 +47,7 @@ const Portfolio = () => {
               </div>
               <div className="text-center">
                 <p className="text-xl text-white font-bold mb-2">{item.title}</p>
-                <p className="text-base text-white font-normal line-clamp-3 leading-tight">{item.description}</p>
+                <p className="text-base projectDescription text-white line-clamp-3 leading-tight">{item.description}</p>
               </div>
               {/*------------------------- Project link --------------------- */}
               <div className='projectIcon pt-4' id='projectIcon'>

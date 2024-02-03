@@ -30,8 +30,6 @@
 
 - Clone this [repository](https://github.com/Sonu8544?tab=repositories) to your local machine 
 - ```
-  git clone git@github.com:Meri-MG/portfolio---react.git
-  ```
 
 - Navigate to `cd portfolio---react`  directory.
 

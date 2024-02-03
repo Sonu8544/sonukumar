@@ -5,6 +5,11 @@
     padding: 1rem 1rem 0px 1rem;
 }
 
+#projectIcon div a{
+    border: 2px solid red;
+    paddin: 5px;
+} 
+
 .cardHover {
     background: var(--color-bg-variant);
 }
@@ -36,4 +41,8 @@
 
 .cardHover:hover .cardImage>img {
     transform: scale(1.1);
+}
+
+.projectDescription{
+    font-weight: 300;
 }
