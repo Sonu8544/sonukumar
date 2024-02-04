@@ -29,6 +29,7 @@
 .cardHover .cardImage>img {
     transition: transform 1s ease;
     transform: scale(1);
+    object-fit: contain;
 }
 
 .cardHover:hover {
