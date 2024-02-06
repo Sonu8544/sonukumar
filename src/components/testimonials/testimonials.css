@@ -56,6 +56,11 @@
     background: var(--color-primary);
 }
 
+img, svg, video, canvas, audio, iframe, embed, object {
+    /* display: block; */
+    vertical-align: middle;
+}
+
 @media screen and (max-width: 1024px) {
     .container.testimonials__container {
         width: 60%;

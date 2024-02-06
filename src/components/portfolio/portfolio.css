@@ -14,14 +14,15 @@
 
 .cardHover {
     background: var(--color-bg-variant);
+    transition: var(--transition);
 }
 
 .cardHover:hover {
     background: transparent;
+    transition: var(--transition);
 }
 
 /* Image  */
-
 .cardHover .cardImage {
     overflow: hidden;
 }
