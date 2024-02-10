@@ -14,14 +14,19 @@ header {
   color: white;
 }
 
-/* header.css */
+/* Header css */
 
 .header__content {
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+}
 
+.text-light {
+  width: 47%;
+  text-align: end;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
 }
 
 .text-light {
@@ -76,5 +81,9 @@ header {
   .header__socials,
   .scroll__down {
     display: none;
+  }
+
+  .text-light {
+    width: 30%;
   }
 }

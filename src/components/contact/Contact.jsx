@@ -14,7 +14,7 @@ const Contact = () => {
         'service_k2qawqh',
         'template_c6rkpn6',
         formRef.current,
-        'X7K7ebhIeOy3YwHki'
+        'sksonu8544@gmail.com'
       )
       .then(
         (result) => {
