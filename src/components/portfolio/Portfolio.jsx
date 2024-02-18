@@ -43,7 +43,7 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-10">
           {project.map((item, index) => (
-            <div className="max-w-sm bg-[#2c2c6c] border shadow-2xl overflow-hidden rounded-lg hover:bg-transparent hover:border-2 hover:border-solid hover:border-[#4db5ff] hover:scale-[1.1] transition duration-1000 ease-in-out">
+            <div className="max-w-sm bg-[#2c2c6c] border shadow-2xl overflow-hidden rounded-lg hover:bg-transparent hover:border-2 hover:border-solid hover:border-[#4db5ff] hover:scale-[1.05] transition duration-1000 ease-in-out">
               <a href="#">
                 <img className="rounded-t-lg h-[220px] object-cover hover:scale-[1.05] transition duration-300 ease-in-out" src={item.image} alt="" />
               </a>

@@ -29,13 +29,13 @@ const Intro = () => {
               <small>13+ Completed Projects</small>
             </article>
           </div>
-          <p>passionate full-stack developer with over 2 years of dedicated experience, my expertise predominantly lies in frontend development. Over the course of my career, I've successfully completed 12+ projects, honing my skills in HTML, CSS, JavaScript, Tailwind CSS, React.js, Next.js, and Redux. On the backend, I possess proficiency in Node.js, Express.js, RESTful API development, OAuth authentication, and database management encompassing both MongoDB and SQL. My repertoire extends beyond technical skills; I am well-versed in version control with Git and GitHub, deployment with Heroku, and possess a keen understanding of CI/CD pipelines with tools like Jenkins. Moreover, I prioritize writing clean, maintainable code adhering to industry standards and best practices. My commitment to continuous learning and effective communication further enhances my ability to deliver impactful solutions that meet both client needs and industry expectations.
+          <p className='text-white' >passionate full-stack developer with over 2 years of dedicated experience, my expertise predominantly lies in frontend development. Over the course of my career, I've successfully completed 12+ projects, honing my skills in HTML, CSS, JavaScript, Tailwind CSS, React.js, Next.js, and Redux. On the backend, I possess proficiency in Node.js, Express.js, RESTful API development, OAuth authentication, and database management encompassing both MongoDB and SQL. My repertoire extends beyond technical skills; I am well-versed in version control with Git and GitHub, deployment with Heroku, and possess a keen understanding of CI/CD pipelines with tools like Jenkins. Moreover, I prioritize writing clean, maintainable code adhering to industry standards and best practices. My commitment to continuous learning and effective communication further enhances my ability to deliver impactful solutions that meet both client needs and industry expectations.
             reduce 40 word and make pointable </p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
     </section>
-  )
+  ) 
 }
 
 export default Intro

@@ -70,7 +70,11 @@
 
 .about__content p {
     margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+    /* color: var(--color-light); */
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 
 @media screen and (max-width: 1024px) {
