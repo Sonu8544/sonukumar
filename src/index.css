@@ -142,4 +142,8 @@ svg{
   section > h2 {
     margin-bottom: 2rem;
   }
+
+  .btn{
+    width: 100%;
+  }
 }
