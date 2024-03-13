@@ -11,10 +11,10 @@ const Contact = () => {
     setMessage(true);
     emailjs
       .sendForm(
-        'service_k2qawqh',
-        'template_c6rkpn6',
+        'service_sdmglyn',
+        'template_a8fo0sl',
         formRef.current,
-        'sksonu8544@gmail.com'
+        'ayEkFP6B2a13BjKlh'
       )
       .then(
         (result) => {
@@ -27,6 +27,7 @@ const Contact = () => {
 
     e.target.reset();
   };
+
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
