@@ -28,13 +28,23 @@ const Intro = () => {
               <small>13+ Completed Projects</small>
             </article>
           </div>
-          <p className='text-white' >passionate full-stack developer with over 2 years of dedicated experience, my expertise predominantly lies in frontend development. Over the course of my career, I've successfully completed 12+ projects, honing my skills in HTML, CSS, JavaScript, Tailwind CSS, React.js, Next.js, and Redux. On the backend, I possess proficiency in Node.js, Express.js, RESTful API development, OAuth authentication, and database management encompassing both MongoDB and SQL. My repertoire extends beyond technical skills; I am well-versed in version control with Git and GitHub, deployment with Heroku, and possess a keen understanding of CI/CD pipelines with tools like Jenkins. Moreover, I prioritize writing clean, maintainable code adhering to industry standards and best practices. My commitment to continuous learning and effective communication further enhances my ability to deliver impactful solutions that meet both client needs and industry expectations.
-            reduce 40 word and make pointable </p>
+          <p className='text-white' >
+            I am a Frontend Developer with over 2+ years of experience building intuitive, user-friendly websites and applications. My expertise lies in HTML5, CSS3, TailwindCSS, JavaScript, React js, Next js, Github, and modern frontend frameworks such as React and Next js.
+          </p>
+          <p>
+            Throughout my career, I have had the opportunity to work on a variety of projects, ranging from small business websites to large-scale enterprise applications. I am highly skilled in designing and implementing responsive layouts, as well as optimizing performance and accessibility.
+          </p>
+          <p>
+            I am a proactive team player who is always willing to go the extra mile to ensure that projects are completed on time and to the highest standard. I have excellent communication skills and am comfortable working with both technical and non-technical stakeholders.
+          </p>
+          <p>
+            I am excited to bring my expertise and passion for frontend development to a new challenge, and I am always looking for opportunities to learn and grow in my career.
+          </p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
     </section>
-  ) 
+  )
 }
 
 export default Intro

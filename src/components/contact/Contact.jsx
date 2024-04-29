@@ -64,6 +64,7 @@ const Contact = () => {
             required
           />
           <textarea
+          className='inputType'
             placeholder="Your message"
             rows="5"
             name="message"
@@ -72,7 +73,7 @@ const Contact = () => {
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>
-          {message && <span>Thanks, I'll reply ASAP :)</span>}
+          {message && <span>Thank you, I'll reply very soon :)</span>}
         </form>
       </div>
     </section>

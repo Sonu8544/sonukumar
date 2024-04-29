@@ -59,6 +59,10 @@ form {
     padding: 15px 5px;
 }
 
+.inputType::placeholder {
+    color: rgb(199, 198, 198);
+}
+
 input,
 textarea {
     width: 100%;
