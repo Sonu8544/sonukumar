@@ -52,7 +52,7 @@ const Testimonials = () => {
       link: 'https://www.linkedin.com/in/sonu8544/',
       name: 'Nitish',
       role: 'Full Stack Developer | Mindful Mentor | Cheerful Team Player',
-      test: "Sonu is really cheerful and supportive person. I know her when she reviewed my resume. Her feedback was so crystal clear and super effective for me. After that, even though she has no responsibility of reviewing my resume again. She helped me patiently when I ask her again and again. Sonu is gifted in reviewing the work and giving advice to others. I feel really lucky to have her as the reviewer of my resume.",
+      test: "“I worked with Anurag to make my website. I am speechless by looking at his work ethic and dedication. Working with him was the best decision I made.”",
     },
   ];
   return (
