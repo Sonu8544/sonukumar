@@ -17,14 +17,14 @@ const Testimonials = () => {
       link: 'https://www.linkedin.com/in/sonu8544/',
       name: 'Aditya Singh',
       role: 'Full-Stack Web Developer. JavaScript | Rails | React | Redux. Improving open-source projects, one commit at a time.',
-      test: 'As a developer and a problem solver, I think Sonu is a great collaborative partner to have. I met Sonu in some basic javascript & react projects and since then she has drastically progressed in her understanding of the development process. She always has a professional environment and has good audio and video quality which makes it easier to communicate with her.',
+      test: "Sonu is a talented, committed individual who will leave no stone unturned in his pursuit to provide with the best. His attention to detail and in-depth experience in the of web development is indeed commendable. He has exhibited exemplary skills in the field, and I hope to see all the great projects coming up!",
     },
     {
       id: 2,
       link: 'https://www.linkedin.com/in/sonu8544/',
       name: 'Kashyap Pavra',
       role: 'Full-stack developer | Technical Support Engineer at Microverse',
-      test: "It was a pleasure collaborating with Sonu on different projects. One of the things that I think is special about her is that she never settles, even after completing the projects she finds other resources and strengthens her knowledge. Collaborating with her is easy and comfortable, it's like working with someone you've known for a long period of time.",
+      test: "Sonu was a wonderful developer to work with! He anticipated everything I need to consider for my website. He also went the extra mile and added details that I hadn't considered! He is helping my business grow, and I will definitely work with him again!”",
     },
     {
       id: 3,

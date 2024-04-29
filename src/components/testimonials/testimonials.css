@@ -41,11 +41,11 @@
 }
 
 .client__review {
-    color: var(--color-light);
-    font-weight: 300;
+    color: white;
+    font-weight: 400;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 5;
+    /* -webkit-line-clamp: 5; */
     /* Limit to 5 lines */
     overflow: hidden;
     width: 90%;
