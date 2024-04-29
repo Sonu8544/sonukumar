@@ -46,7 +46,7 @@ const Contact = () => {
             className='inputType'
             type="text"
             placeholder="Your Full Name"
-            name="user_name"
+            name="name"
             required
           />
           <input
@@ -54,6 +54,13 @@ const Contact = () => {
             type="text"
             placeholder="Your Email"
             name="user_email"
+            required
+          />
+          <input
+            className='inputType'
+            type="tel"
+            placeholder="Your Phone Number"
+            name="phone_number"
             required
           />
           <textarea
