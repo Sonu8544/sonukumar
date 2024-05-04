@@ -48,8 +48,9 @@
     /* -webkit-line-clamp: 5; */
     /* Limit to 5 lines */
     overflow: hidden;
-    width: 90%;
+    width: 95%;
     margin: 0.8rem auto 0;
+    font-size: 14px;
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
