@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import { MdOutlineEmail } from 'react-icons/md';
+import contactImage from '../../assets/contact-me.jpg'
 import './contact.css';
 
 const Contact = () => {
@@ -30,15 +30,17 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h5>Get In Touch</h5>
-      <h2> &lt; Contact Me /&gt;</h2>
+      <div className='flex justify-center mb-10 md:mb-20' >
+        <button class="bg-transparent hover:bg-indigo-800 text-white text-[1.5rem] font-semibold hover:text-white py-2 px-10 border-b-2 border-solid border-white rounded">
+          Let's connect
+        </button>
+
+
+      </div>
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <MdOutlineEmail className="contact__option-icon" />
-            <h4>Email</h4>
-            <h5>sksonu8544@gmail.com</h5>
-            <a href="mailto:sksonu8544@gmail.com">Send a message</a>
+            <img src={contactImage} alt="sksonu8544@gmail.com" />
           </article>
         </div>
         <form ref={formRef} onSubmit={handleSubmit}>
@@ -64,7 +66,7 @@ const Contact = () => {
             required
           />
           <textarea
-          className='inputType'
+            className='inputType'
             placeholder="Your message"
             rows="5"
             name="message"
