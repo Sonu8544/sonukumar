@@ -34,8 +34,6 @@ const Contact = () => {
         <button class="bg-transparent hover:bg-indigo-800 text-white text-[1.5rem] font-semibold hover:text-white py-2 px-10 border-b-2 border-solid border-white rounded">
           Let's connect
         </button>
-
-
       </div>
       <div className="container contact__container">
         <div className="contact__options">

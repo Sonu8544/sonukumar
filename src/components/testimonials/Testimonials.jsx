@@ -57,8 +57,11 @@ const Testimonials = () => {
   ];
   return (
     <section id="testmonials">
-      <h5>Feedback from my peers</h5>
-      <h2> &lt; Testimonials /&gt;</h2>
+      <div className='flex justify-center mb-10 md:mb-20' >
+        <button class="bg-transparent hover:bg-indigo-800 text-white text-[1.5rem] font-semibold hover:text-white py-2 px-10 border-b-2 border-solid border-white rounded">
+          Testimonials
+        </button>
+      </div>
       <Swiper
         className="container testimonials__container"
         modules={[Pagination, Autoplay]}

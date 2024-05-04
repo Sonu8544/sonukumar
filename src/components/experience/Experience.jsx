@@ -5,13 +5,16 @@ import './experience.css';
 const Experience = () => {
   return (
     <section id="experience">
-      <h5>The Skills I Have</h5>
-      <h2> &lt; Skills /&gt;</h2>
+      <div className='flex justify-center mb-10 md:mb-20' >
+        <button class="bg-transparent hover:bg-indigo-800 text-white text-[1.5rem] font-semibold hover:text-white py-2 px-10 border-b-2 border-solid border-white rounded">
+          My Skill's
+        </button>
+      </div>
       <div className="container experience__container">
         <div className="experience__frontend">
           <h3>Front-end Development</h3>
           <div className="experience__content">
-          <article className="experience__details">
+            <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>JavaScript</h4>
             </article>
@@ -48,7 +51,7 @@ const Experience = () => {
         <div className="experience__backend">
           <h3>Back-end Development</h3>
           <div className="experience__content">
-          <article className="experience__details">
+            <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Node Js</h4>
             </article>
@@ -85,7 +88,7 @@ const Experience = () => {
         <div className="experience__backend">
           <h3>Others</h3>
           <div className="experience__content">
-          <article className="experience__details">
+            <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Docker</h4>
             </article>

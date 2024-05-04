@@ -7,8 +7,11 @@ import './intro.css';
 const Intro = () => {
   return (
     <section id="about">
-      <h5>Get to know</h5>
-      <h2>&lt; About Me /&gt;</h2>
+      <div className='flex justify-center mb-10 md:mb-20' >
+        <button class="bg-transparent hover:bg-indigo-800 text-white text-[1.5rem] font-semibold hover:text-white py-2 px-10 border-b-2 border-solid border-white rounded">
+          About Me
+        </button>
+      </div>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">

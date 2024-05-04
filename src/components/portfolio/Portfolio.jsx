@@ -50,8 +50,11 @@ const Portfolio = () => {
 
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
-      <h2> &lt; Portfolio /&gt;</h2>
+    <div className='flex justify-center mb-10 md:mb-20' >
+        <button class="bg-transparent hover:bg-indigo-800 text-white text-[1.5rem] font-semibold hover:text-white py-2 px-10 border-b-2 border-solid border-white rounded">
+        Latest Works
+        </button>
+      </div>
       <div className="container portfolio__container">
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-10">
           {project.map((item, index) => (
