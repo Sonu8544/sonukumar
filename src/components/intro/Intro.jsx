@@ -26,34 +26,47 @@ const Intro = () => {
   return (
     <section id="about">
       <div className="flex justify-center md:mb-20 md:mt-[15rem]">
-        <button class="bg-transparent md:text-[#4DB5FF]  text-gray-200 text-[2rem] font-semibold hover:text-pink-600 py-2 px-10 border-b-2 border-solid border-[#4DB5FF] rounded">
+        <button class="bg-transparent md:text-[#4DB5FF]  text-gray-200 text-[2rem] font-semibold hover:text-[#358ac7] py-2 px-10 border-b-2 border-solid border-[#4DB5FF] rounded">
           About Me
         </button>
       </div>
       <div className="container about__container">
         <div className="about-section md:mt-[2rem] ">
           <div className="flex justify-center mb-[3rem]">
-            <button class=" hidden md:block bg-transparent text-gray-100 text-[1.5rem] font-semibold hover:text-gray-300 py-1 px-10 border-b-2 border-solid border-gray-100 hover:border-gray-300 rounded">
+            <button class=" hidden md:block bg-transparent text-[#4DB5FF] text-[1.5rem] font-semibold hover:text-[#3585bd] py-1 px-10 border-b-2 border-solid border-[#4DB5FF] hover:border-[#2882c3] rounded">
               Info
             </button>
           </div>
-          <p className="text-gray-300">
-            I'm a Full Stack Web Developer building Websites and Web
-            Applications that leads to the success of the overall product. Check
-            out some of my work in the Projects section. <br /> <br /> I also
-            like sharing content related to the stuff that I have learned over
-            the years in Web Development so it can help other people of the Dev
-            Community. Feel free to Connect or Follow me on my Linkedin where I
-            post useful content related to Web Development and Programming{" "}
+          <p className="text-gray-400">
+            I'm a
+            <span className="text-xl text-gray-300">
+              
+              Full Stack Web Developer
+            </span>
+            building Websites and Web Applications that leads to the success of
+            the overall product. Check out some of my work in the
+            <span className="text-xl text-gray-300"> Projects </span> section.
+            <br /> <br /> I also like sharing content related to the stuff that
+            I have learned over the years in
+            <span className="text-xl text-gray-300"> Web Development </span>Web
+            Development so it can help other people of the Dev Community. Feel
+            free to Connect or Follow me on my Linkedin where I post useful
+            content related to Web Development and Programming
             <br />
-            <br /> I'm open to Job opportunities where I can contribute, learn
-            and grow. If you have a good opportunity that matches my skills and
-            experience then don't hesitate to contact me.
+            <br /> I'm open to
+            <span className="text-xl text-gray-300">
+              
+              Job opportunities
+            </span>
+            where I can contribute, learn and grow. If you have a good
+            opportunity that matches my skills and experience then don't
+            hesitate to
+            <span className="text-xl text-gray-300">contact me </span> .
           </p>
         </div>
         <div className="about__content font-sans mt-[2rem]">
           <div className="flex justify-center mb-[3rem]">
-            <button class="bg-transparent hidden md:block text-gray-100 text-[1.5rem] font-semibold hover:text-gray-300 py-1 px-10 border-b-2 border-solid border-gray-100 hover:border-gray-300 rounded">
+            <button class=" hidden md:block bg-transparent text-[#4DB5FF] text-[1.5rem] font-semibold hover:text-[#3585bd] py-1 px-10 border-b-2 border-solid border-[#4DB5FF] hover:border-[#2882c3] rounded">
               Skill's
             </button>
             <button class="bg-transparent md:hidden text-pink-700 text-[2rem] font-semibold hover:text-pink-600 py-2 px-10 border-b-2 border-solid border-pink-700 rounded">
