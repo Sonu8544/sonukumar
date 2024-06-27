@@ -1,52 +1,131 @@
 #projectIcon {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 1rem 0px 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem 0px 1rem;
 }
 
 #projectIcon div a {
-    border: 3px solid blue;
-    width: 40px;
-    height: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 3px solid blue;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .cardHover {
-    background: var(--color-bg-variant);
-    transition: var(--transition);
+  background: var(--color-bg-variant);
+  transition: var(--transition);
 }
 
 .cardHover:hover {
-    background: transparent;
-    transition: var(--transition);
+  background: transparent;
+  transition: var(--transition);
 }
 
 /* Image  */
 .cardHover .cardImage {
-    overflow: hidden;
+  overflow: hidden;
 }
 
-.cardHover .cardImage>img {
-    transition: transform 1s ease;
-    transform: scale(1);
-    object-fit: contain;
-}
-
-.cardHover:hover {
-    border: 2px solid var(--color-bg-variant);
-    transition: transform 1s ease-in;
-    transform: scale(1);
+.cardHover .cardImage > img {
+  transition: transform 1s ease;
+  transform: scale(1);
+  object-fit: contain;
 }
 
 .cardHover:hover {
-    transform: scale(1.1);
+  border: 2px solid var(--color-bg-variant);
+  transition: transform 1s ease-in;
+  transform: scale(1);
 }
 
-.cardHover:hover .cardImage>img {
-    transform: scale(1.1);
+.cardHover:hover {
+  transform: scale(1.1);
+}
+
+.cardHover:hover .cardImage > img {
+  transform: scale(1.1);
 }
 
 .projectDescription {
-    font-weight: 300;
+  font-weight: 300;
+}
+
+/* new product csrd*/
+.portfolio__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden; /* Ensure overflow is hidden to contain the text overlay */
+  border: 2px solid rgb(220, 220, 220); /* Add transparent border initially */
+  padding: 4px; /* Optional: Add padding for border */
+  border-radius: 10px; /* Optional: Add border radius */
+}
+
+.image-container:hover {
+  border: 2px solid blue;
+}
+
+.image-container .image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  border-radius: 10px; /* Optional: Add border radius to image */
+}
+
+.image-container .middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  text-align: center;
+  border-radius: 10px; /* Optional: Add border radius */
+}
+
+.image-container:hover .image {
+  opacity: 0.3;
+}
+
+.image-container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 14px;
+  width: 90%; /* Ensure the text takes up the majority of the container width */
+  margin: 0 auto; /* Center the text within the container */
+  padding: 16px; /* Optional: add padding for better appearance */
+}
+
+.image-container button {
+  background-color: rgb(16, 121, 16);
+  color: white;
+  border: none;
+  padding: 6px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px; /* Optional: Adjust margin top for button */
+  border-radius: 5px; /* Optional: Add button border radius */
+}
+
+.image-container button:hover {
+  background-color: #17ab11; /* Optional: Change background color on hover */
 }

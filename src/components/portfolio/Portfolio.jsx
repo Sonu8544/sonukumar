@@ -1,85 +1,129 @@
-import './portfolio.css';
-import popular from '../../assets/popular.png'
-import adio from '../../assets/adio.png'
+import "./portfolio.css";
+import { AiOutlineEye } from "react-icons/ai"; // Importing an example icon from react-icons library
 
 const Portfolio = () => {
-  const project = [
+  const imageOverlayData = [
     {
-      image: adio,
-      title: "Adio eCommerse Full Stack Project",
-      description: "t looks like you're trying to define a Tailwind CSS className for a border with a hover effect. In Tailwind CSS, you can use the border and hover utilities to achieve this. Here's an example of how you can create a className with a 2-pixel red border that appears on ",
-      github: "https://github.com/Sonu8544",
-      live: "https://react-e-commerse-nine.vercel.app/",
+      id: 1,
+      imgSrc:
+        "https://media.istockphoto.com/id/1488514106/photo/cheerful-couple-having-fun-while-splashing-each-other-at-sea.jpg?s=2048x2048&w=is&k=20&c=iBBGyprHe00kvC42Qm9FCnyfDJdJC7ZpEhNTyeXFW-k=",
+      title: "John Doe 1",
+      description:
+        "If you have any questions, comments, or concerns, don't hesitate to contact our team. We're here to help!",
+      name: "Sonu Kumar",
+      github: "https://github.com/sonu8544",
+      link: "https://in.ilemjapan.com/",
     },
     {
-      image: popular,
-      title: "eCommerse Full Stack Project",
-      description: "t looks like you're trying to define a Tailwind CSS className for a border with a hover effect. In Tailwind CSS, you can use the border and hover utilities to achieve this. Here's an example of how you can create a className with a 2-pixel red border that appears on ",
-      github: "https://github.com/Sonu8544",
-      live: "https://react-e-commerse-nine.vercel.app/",
+      id: 1,
+      imgSrc:
+        "https://media.istockphoto.com/id/1488514106/photo/cheerful-couple-having-fun-while-splashing-each-other-at-sea.jpg?s=2048x2048&w=is&k=20&c=iBBGyprHe00kvC42Qm9FCnyfDJdJC7ZpEhNTyeXFW-k=",
+      title: "John Doe 1",
+      description:
+        "If you have any questions, comments, or concerns, don't hesitate to contact our team. We're here to help!",
+      name: "Sonu Kumar",
+      github: "https://github.com/sonu8544",
+      link: "https://in.ilemjapan.com/",
     },
     {
-      image: "https://images.pexels.com/photos/987586/pexels-photo-987586.jpeg?auto=compress&cs=tinysrgb&w=600",
-      title: "eCommerse Project",
-      description: "t looks like you're trying to define a Tailwind CSS className for a border with a hover effect. In Tailwind CSS, you can use the border and hover utilities to achieve this. Here's an example of how you can create a className with a 2-pixel red border that appears on ",
-      github: "https://github.com/Sonu8544",
-      live: "https://react-e-commerse-nine.vercel.app/",
+      id: 1,
+      imgSrc:
+        "https://media.istockphoto.com/id/1488514106/photo/cheerful-couple-having-fun-while-splashing-each-other-at-sea.jpg?s=2048x2048&w=is&k=20&c=iBBGyprHe00kvC42Qm9FCnyfDJdJC7ZpEhNTyeXFW-k=",
+      title: "John Doe 1",
+      description:
+        "If you have any questions, comments, or concerns, don't hesitate to contact our team. We're here to help!",
+      name: "Sonu Kumar",
+      github: "https://github.com/sonu8544",
+      link: "https://in.ilemjapan.com/",
     },
     {
-      image: "https://images.pexels.com/photos/220053/pexels-photo-220053.jpeg?auto=compress&cs=tinysrgb&w=600",
-      title: "eCommerse Project",
-      description: "t looks like you're trying to define a Tailwind CSS className for a border with a hover effect. In Tailwind CSS, you can use the border and hover utilities to achieve this. Here's an example of how you can create a className with a 2-pixel red border that appears on ",
-      github: "https://github.com/Sonu8544",
-      live: "https://react-e-commerse-nine.vercel.app/",
+      id: 2,
+      imgSrc:
+        "https://media.istockphoto.com/id/1561239522/photo/young-woman-taking-a-photo-of-the-sunset.jpg?s=2048x2048&w=is&k=20&c=OEyqBoT5K3BsTM4S7xnhQde1FiiAmrR_EP-owqZw55c=",
+      title: "John Doe 2",
+      name: "Sonu Kumar",
+      description:
+        "If you have any questions, comments, or concerns, don't hesitate to contact our team. We're here to help!",
+      github: "https://github.com/sonu8544",
+      link: "https://in.ilemjapan.com/",
     },
     {
-      image: "https://images.pexels.com/photos/6348047/pexels-photo-6348047.jpeg?auto=compress&cs=tinysrgb&w=600",
-      title: "eCommerse Project",
-      description: "t looks like you're trying to define a Tailwind CSS className for a border with a hover effect. In Tailwind CSS, you can use the border and hover utilities to achieve this. Here's an example of how you can create a className with a 2-pixel red border that appears on ",
-      github: "https://github.com/Sonu8544",
-      live: "https://react-e-commerse-nine.vercel.app/",
+      id: 3,
+      imgSrc:
+        "https://cdn.pixabay.com/photo/2023/12/19/21/19/girls-8458409_640.jpg",
+      title: "John Doe 3",
+      name: "Sonu Kumar",
+      description:
+        "If you have any questions, comments, or concerns, don't hesitate to contact our team. We're here to help!",
+      github: "https://github.com/sonu8544",
+      link: "https://in.ilemjapan.com/",
     },
     {
-      image: "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
-      title: "eCommerse Project",
-      description: "t looks like you're trying to define a Tailwind CSS className for a border with a hover effect. In Tailwind CSS, you can use the border and hover utilities to achieve this. Here's an example of how you can create a className with a 2-pixel red border that appears on ",
-      github: "https://github.com/Sonu8544",
-      live: "https://react-e-commerse-nine.vercel.app/",
-    }
-  ]
+      id: 3,
+      imgSrc:
+        "https://cdn.pixabay.com/photo/2023/12/19/21/19/girls-8458409_640.jpg",
+      title: "John Doe 3",
+      name: "Sonu Kumar",
+      description:
+        "If you have any questions, comments, or concerns, don't hesitate to contact our team. We're here to help!",
+      github: "https://github.com/sonu8544",
+      link: "https://in.ilemjapan.com/",
+    },
+  ];
 
   return (
     <section id="portfolio">
-    <div className='flex justify-center mb-10 md:mb-20' >
-        <button class="bg-transparent hover:bg-indigo-800 text-white text-[1.5rem] font-semibold hover:text-white py-2 px-10 border-b-2 border-solid border-white rounded">
-        Latest Works
+      <div className="flex justify-center mb-10 md:mb-20">
+        <button className="bg-transparent hover:bg-indigo-800 text-white text-[1.5rem] font-semibold hover:text-white py-2 px-10 border-b-2 border-solid border-white rounded">
+          Latest Works
         </button>
       </div>
       <div className="container portfolio__container">
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-10">
-          {project.map((item, index) => (
-            <div className="max-w-sm bg-[#2c2c6c] border shadow-2xl overflow-hidden rounded-lg hover:bg-transparent hover:border-2 hover:border-solid hover:border-[#4db5ff] hover:scale-[1.05] transition duration-1000 ease-in-out">
-              <a href="#">
-                <img className="rounded-t-lg h-[220px] object-cover hover:scale-[1.05] transition duration-300 ease-in-out" src={item.image} alt="" />
-              </a>
-              <div className="p-5">
-                <a href="#">
-                  <h5 className="mb-4 text-xl tracking-tight dark:text-gray-200"> {item.title} </h5>
-                </a>
-                <p className="mb-4 text-[15px] font-normal text-gray-400 line-clamp-5 leading-tight">{item.description}</p>
-                <div className='flex justify-between px-5'>
-                  <a title="Follow me on Linkedin" href={item.github} target="_blank" className="block w-8 h-8 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110">
-                    <img className="object-cover object-center w-full h-full rounded-full" src="data:image/png;base64,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" alt={index} />
-                  </a>
-                  <a title="Follow me on Linkedin" href={item.live} target="_blank" rel="noreferrer" className="block w-8 h-8 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110">
-                    <img className="object-cover object-center w-full h-full rounded-full" src="data:image/png;base64,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" alt={index} />
-                  </a>
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          {imageOverlayData.map((item) => (
+            <div key={item.id} className="image-container border-2 relative">
+              <img
+                src={item.imgSrc}
+                alt={`Avatar ${item.id}`}
+                className="image"
+                style={{ width: "100%" }}
+              />
+              <div className="absolute bottom-0 left-0 right-0 bg-gray-800 bg-opacity-75 text-white text-center p-2">
+                <span className="mr-1">{item.name}</span>
+                <AiOutlineEye className="inline-block ml-1" size={20} />
+              </div>
+              <div className="middle">
+                <div className="text">
+                  <h4 className="text-[18px] ">{item.title}</h4>
+                  <p className="text-gray-300">{item.description}</p>
+                  <div className="flex justify-center gap-4">
+                    {item?.github && (
+                      <a
+                        href={item.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <button className="text-white bg-indigo-600 px-4 py-2 mt-2 rounded hover:bg-indigo-700">
+                          GitHub
+                        </button>
+                      </a>
+                    )}
+                    {item?.link && (
+                      <a
+                        href={item.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <button className="text-white bg-indigo-600 px-4 py-2 mt-2 rounded hover:bg-indigo-700">
+                          Live View
+                        </button>
+                      </a>
+                    )}
+                  </div>
                 </div>
               </div>
             </div>
-
           ))}
-
         </div>
       </div>
     </section>
@@ -87,38 +131,3 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
-
-
-
-
-
-{/* <div key={index} className="cardHover w-full rounded-lg shadow-lg p-3 flex flex-col justify-center items-center cursor-pointer">
-<div className="mb-8 cardImage">
-  <img className="imageHover object-center object-cover rounded-sm h-[220px] w-[100%]" src={item.image} alt={index} />
-</div>
-<div className="text-center">
-  <p className="text-xl text-white font-bold mb-2">{item.title}</p>
-  <p className="text-base projectDescription text-white line-clamp-3 leading-tight">{item.description}</p>
-</div>
-<div className='projectIcon pt-4' id='projectIcon'>
-  <div className='projectIcon pt-4' id='projectIcon'>
-    <div>
-      <a title="Follow me on Linkedin" href="https://www.linkedin.com/in/sonukumar8544" target="_blank" className="block w-8 h-8 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110">
-        <img className="object-cover object-center w-full h-full rounded-full" src="data:image/png;base64,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" alt={index} />
-      </a>
-
-    </div>
-
-    <div>
-      <a title="Follow me on Linkedin" href="https://www.linkedin.com/in/sonukumar8544" target="_blank" rel="noreferrer" className="block w-8 h-8 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110">
-        <img className="object-cover object-center w-full h-full rounded-full" src="data:image/png;base64,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" alt={index} />
-      </a>
-    </div>
-
-  </div>
-</div>
-</div> */}
-
-
-
-
