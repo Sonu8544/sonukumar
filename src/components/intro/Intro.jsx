@@ -25,8 +25,8 @@ const Intro = () => {
 
   return (
     <section id="about">
-      <div className="flex justify-center md:mb-20">
-        <button class="bg-transparent text-pink-700 text-[2rem] font-semibold hover:text-pink-600 py-2 px-10 border-b-2 border-solid border-pink-700 rounded">
+      <div className="flex justify-center md:mb-20 md:mt-[15rem]">
+        <button class="bg-transparent md:text-[#4DB5FF]  text-gray-200 text-[2rem] font-semibold hover:text-pink-600 py-2 px-10 border-b-2 border-solid border-[#4DB5FF] rounded">
           About Me
         </button>
       </div>
