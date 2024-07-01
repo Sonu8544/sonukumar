@@ -8,10 +8,12 @@ const Intro = () => {
   const buttonData = [
     { id: 9, text: "HTML5" },
     { id: 10, text: "CSS3" },
+    { id: 14, text: "TailwindCSS" },
     { id: 11, text: "JavaScript" },
     { id: 12, text: "React" },
     { id: 13, text: "Next.js" },
-    { id: 14, text: "TailwindCSS" },
+    { id: 1, text: "Remix.js" },
+    { id: 15, text: "Git" },
     { id: 15, text: "GitHub" },
     { id: 16, text: "Node.js" },
     { id: 17, text: "Express" },
