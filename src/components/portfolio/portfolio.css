@@ -61,10 +61,10 @@
 .image-container {
   position: relative;
   width: 100%;
-  overflow: hidden; /* Ensure overflow is hidden to contain the text overlay */
-  border: 2px solid rgb(220, 220, 220); /* Add transparent border initially */
-  padding: 4px; /* Optional: Add padding for border */
-  border-radius: 10px; /* Optional: Add border radius */
+  overflow: hidden;
+  border: 2px solid rgb(220, 220, 220);
+  padding: 4px;
+  border-radius: 10px;
 }
 
 .image-container:hover {
@@ -78,7 +78,7 @@
   height: auto;
   transition: 0.5s ease;
   backface-visibility: hidden;
-  border-radius: 10px; /* Optional: Add border radius to image */
+  border-radius: 10px;
 }
 
 .image-container .middle {
@@ -92,9 +92,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  background: rgba(57, 57, 57, 0.7);
   text-align: center;
-  border-radius: 10px; /* Optional: Add border radius */
+  border-radius: 10px;
 }
 
 .image-container:hover .image {
@@ -108,9 +108,9 @@
 .text {
   color: white;
   font-size: 14px;
-  width: 90%; /* Ensure the text takes up the majority of the container width */
-  margin: 0 auto; /* Center the text within the container */
-  padding: 16px; /* Optional: add padding for better appearance */
+  width: 90%;
+  margin: 0 auto;
+  padding: 16px;
 }
 
 .image-container button {
@@ -122,10 +122,10 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin-top: 10px; /* Optional: Adjust margin top for button */
-  border-radius: 5px; /* Optional: Add button border radius */
+  margin-top: 10px;
+  border-radius: 5px;
 }
 
 .image-container button:hover {
-  background-color: #17ab11; /* Optional: Change background color on hover */
+  background-color: #17ab11;
 }
