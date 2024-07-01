@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import contactImage from '../../assets/contact-me.jpg'
+// import contactImage from '../../assets/contact-me.jpg'
+import contactImage from '../../assets/contact-me.webp'
 import './contact.css';
 
 const Contact = () => {
